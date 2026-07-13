@@ -3,11 +3,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import TonesView from '../views/TonesView.vue'
 import QuizToneView from '../views/QuizzToneView.vue'
+import ConsonantsView from '../views/ConsonantsView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView, },
   { path: '/tones', name: 'tones', component: TonesView,},
-  { path: '/tones/quizz', name: 'tonesquizz', component: QuizToneView,}
+  { path: '/tones/quizz', name: 'tonesquizz', component: QuizToneView,},
+  { path: '/consonants', name: 'consonants', component: ConsonantsView}
 ]
 
 const router = createRouter({

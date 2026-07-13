@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
-  /* Color — inspirado en templos tailandeses: tejas de teca, ofrendas de marigold, laca */
+  
   --ink: #1b1712;
   --parchment: #f6efe1;
   --parchment-soft: #efe4cf;
@@ -10,6 +10,13 @@
   --marigold: #e2932c;
   --lacquer: #8b2e2a;
   --gold-line: #c9a227;
+
+  --class-mid: #2f5f8c;
+  --class-mid-border: #1c3f61;
+  --class-high: #8b2e2a;
+  --class-high-border: #5e1f1c;
+  --class-low: #3f7d4f;
+  --class-low-border: #2a5636;
 
   /* Tipografía */
   --font-display: 'Fraunces', Georgia, serif;

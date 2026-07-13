@@ -8,7 +8,8 @@ const menuOpen = ref(false)
 
 const links = [
   { to: '/', label: 'Home' },
-  { to: '/tones', label: 'Tones' }
+  { to: '/consonants', label: 'Consonants' },
+  { to: '/tones', label: 'Tones' }  
 ]
 
 function closeMenu() {
