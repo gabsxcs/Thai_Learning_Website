@@ -1,5 +1,4 @@
 <script setup>
-
 const midConsonants = [
   { letter: 'ก', name: 'ko kai', sound: 'k — unaspirated' },
   { letter: 'จ', name: 'cho chan', sound: 'j / soft ch ' },
@@ -9,7 +8,7 @@ const midConsonants = [
   { letter: 'ต', name: 'to tao', sound: 't — unaspirated' },
   { letter: 'บ', name: 'bo baimai', sound: 'b' },
   { letter: 'ป', name: 'po pla', sound: 'p — unaspirated' },
-  { letter: 'อ', name: 'o ang', sound: 'silent / glottal stop (ʔ) at syllable start' }
+  { letter: 'อ', name: 'o ang', sound: 'silent / glottal stop (ʔ) at syllable start' },
 ]
 
 const highConsonants = [
@@ -23,7 +22,7 @@ const highConsonants = [
   { letter: 'ศ', name: 'so sala', sound: 's' },
   { letter: 'ษ', name: 'so rue-si', sound: 's' },
   { letter: 'ส', name: 'so suea', sound: 's' },
-  { letter: 'ห', name: 'ho hip', sound: 'h' }
+  { letter: 'ห', name: 'ho hip', sound: 'h' },
 ]
 
 const lowConsonants = [
@@ -36,7 +35,7 @@ const lowConsonants = [
   { letter: 'ฌ', name: 'cho choe', sound: 'ch' },
   { letter: 'ญ', name: 'yo ying', sound: 'y' },
   { letter: 'ฑ', name: 'tho montho', sound: 'th' },
-  { letter: 'ฒ', name: 'tho phu-thao)', sound: 'th' },
+  { letter: 'ฒ', name: 'tho phu-thao', sound: 'th' },
   { letter: 'ณ', name: 'no nen', sound: 'n' },
   { letter: 'ท', name: 'tho thahan', sound: 'th' },
   { letter: 'ธ', name: 'tho thong', sound: 'th' },
@@ -50,13 +49,13 @@ const lowConsonants = [
   { letter: 'ล', name: 'lo ling', sound: 'l' },
   { letter: 'ว', name: 'wo waen', sound: 'w' },
   { letter: 'ฬ', name: 'lo chu-la', sound: 'l' },
-  { letter: 'ฮ', name: 'ho nok-huk ', sound: 'h' }
+  { letter: 'ฮ', name: 'ho nok-huk ', sound: 'h' },
 ]
 
 const groups = [
   { key: 'mid', title: 'Mid Class', items: midConsonants },
   { key: 'high', title: 'High Class', items: highConsonants },
-  { key: 'low', title: 'Low Class', items: lowConsonants }
+  { key: 'low', title: 'Low Class', items: lowConsonants },
 ]
 </script>
 
@@ -66,9 +65,9 @@ const groups = [
       <h1>Thai Consonants</h1>
       <p>
         Thai consonants aren't just sounds — each one belongs to a
-        <strong>class</strong> (mid, high, or low), and that class combines
-        with vowel length and tone marks to determine the tone of a syllable.
-        Learning the class alongside the letter pays off later.
+        <strong>class</strong> (mid, high, or low), and that class combines with vowel length and
+        tone marks to determine the tone of a syllable. Learning the class alongside the letter pays
+        off later.
       </p>
       <div class="legend">
         <span class="legend__item"><i class="legend__dot legend__dot--mid"></i>Mid class</span>
@@ -140,9 +139,15 @@ const groups = [
   display: inline-block;
 }
 
-.legend__dot--mid { background: var(--class-mid); }
-.legend__dot--high { background: var(--class-high); }
-.legend__dot--low { background: var(--class-low); }
+.legend__dot--mid {
+  background: var(--class-mid);
+}
+.legend__dot--high {
+  background: var(--class-high);
+}
+.legend__dot--low {
+  background: var(--class-low);
+}
 
 /* Groups */
 .group {
@@ -156,9 +161,18 @@ const groups = [
   border-bottom: 2px solid;
 }
 
-.group__title--mid { border-color: var(--class-mid); color: var(--class-mid); }
-.group__title--high { border-color: var(--class-high); color: var(--class-high); }
-.group__title--low { border-color: var(--class-low); color: var(--class-low); }
+.group__title--mid {
+  border-color: var(--class-mid);
+  color: var(--class-mid);
+}
+.group__title--high {
+  border-color: var(--class-high);
+  color: var(--class-high);
+}
+.group__title--low {
+  border-color: var(--class-low);
+  color: var(--class-low);
+}
 
 /* Grid */
 .grid {
@@ -176,7 +190,9 @@ const groups = [
   border: 2.5px solid;
   padding: var(--space-3) var(--space-2);
   box-shadow: 0 4px 10px rgba(27, 23, 18, 0.12);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
 .card:hover {

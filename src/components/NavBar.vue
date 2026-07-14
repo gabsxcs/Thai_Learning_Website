@@ -8,8 +8,8 @@ const menuOpen = ref(false)
 
 const links = [
   { to: '/', label: 'Home' },
-  { to: '/consonants', label: 'Consonants' },
-  { to: '/tones', label: 'Tones' }  
+  { to: '/reading', label: 'Reading' },
+  { to: '/tones', label: 'Tones' },
 ]
 
 function closeMenu() {
@@ -169,7 +169,6 @@ function closeMenu() {
   border-radius: 2px;
 }
 
-/* Responsivo */
 @media (max-width: 720px) {
   .navbar__toggle {
     display: flex;
