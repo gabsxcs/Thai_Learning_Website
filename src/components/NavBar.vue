@@ -9,7 +9,7 @@ const menuOpen = ref(false)
 const links = [
   { to: '/', label: 'Home' },
   { to: '/reading', label: 'Reading' },
-  { to: '/tones', label: 'Tones' },
+  { to: '/listening', label: 'Listening' },
 ]
 
 function closeMenu() {

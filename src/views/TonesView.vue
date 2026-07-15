@@ -88,14 +88,14 @@ function playTone(type) {
     <section class="modes">
       <h2>Choose your practice mode</h2>
       <div class="modes__grid">
-        <RouterLink to="/tones/quizz" class="mode-card">
+        <RouterLink to="/listening/tones/quizz" class="mode-card">
           <span class="mode-card__eyebrow">Listen</span>
           <h3>Take the Quiz</h3>
           <p>Hear a syllable and pick the correct tone. Great for training your ear first.</p>
           <span class="mode-card__link">Start quiz →</span>
         </RouterLink>
 
-        <RouterLink to="/tones/practicar" class="mode-card">
+        <RouterLink to="/listening/tones/practice" class="mode-card">
           <span class="mode-card__eyebrow">Speak</span>
           <h3>Record & Compare</h3>
           <p>Record your voice and compare your pitch curve against a native speaker's, in real time.</p>

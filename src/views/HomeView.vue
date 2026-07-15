@@ -12,7 +12,7 @@
         Learn Thai from scratch with simple lessons, tone practice, and
         interactive exercises.
       </p>
-      <RouterLink to="/tones" class="hero__button">
+      <RouterLink to="/listening/tones" class="hero__button">
         Get Started
       </RouterLink>
     </div>
